@@ -247,9 +247,14 @@ function App() {useEffect(() => {
   </div>
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
     <p className="text-2xl mb-2">📧</p>
-    <p className="text-blue-600 font-medium">
-      <a href="mailto:nagillapraneeth88@gmail.com">nagillapraneeth88@gmail.com</a>
-    </p>
+ <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=nagillapraneeth88@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  nagillapraneeth88@gmail.com
+</a>
+
   </div>
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
     <p className="text-2xl mb-2">💻</p>
