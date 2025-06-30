@@ -17,15 +17,16 @@ function App() {useEffect(() => {
   return (
 <div className="min-h-screen bg-gray-50 text-gray-900 font-sans px-4 pt-6 pb-12 relative w-full">
       {/* ✅ Top-right certification badges */}
-      <div className="absolute top-4 right-4 flex gap-4" >
-  <img src={`${import.meta.env.BASE_URL}aws.jpg`} alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
-<img src={`${import.meta.env.BASE_URL}azure.jpg`} alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
-<img src={`${import.meta.env.BASE_URL}mta.jpg`} alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
-
-      </div>
+    
 
       {/* ✅ Main Profile Content */}
       <div className="mt-12">
+        <div className="flex flex-wrap justify-center items-center gap-3 md:gap-6 mt-4 mb-6">
+  <img src="/aws.jpg" alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
+  <img src="/azure.jpg" alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
+  <img src="/mta.jpg" alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+</div>
+
         <h1 className="text-4xl md:text-5xl font-bold mb-2 animate-fade-in-up">{profile.name}</h1>
         <h2 className="text-xl text-gray-600 mb-1">FULL STACK DEVELOPER</h2>
         <h2 className="text-lg text-gray-500 mb-2 italic">Masters in Computer Science from University of Central Missouri</h2>
