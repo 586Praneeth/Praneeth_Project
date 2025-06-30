@@ -22,9 +22,10 @@ function App() {useEffect(() => {
       {/* ✅ Main Profile Content */}
       <div className="mt-12">
         <div className="flex flex-wrap justify-center items-center gap-3 md:gap-6 mt-4 mb-6">
-  <img src={`${import.meta.env.BASE_URL}aws.jpg`} alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
+ <img src={`${import.meta.env.BASE_URL}aws.jpg`} alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
 <img src={`${import.meta.env.BASE_URL}azure.jpg`} alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
 <img src={`${import.meta.env.BASE_URL}mta.jpg`} alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+
 
 </div>
 
@@ -247,7 +248,7 @@ function App() {useEffect(() => {
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
     <p className="text-2xl mb-2">📧</p>
     <p className="text-blue-600 font-medium">
-      <a href="mailto:youremail@example.com">nagillapraneeth88@gmail.com</a>
+      <a href="nagillapraneeth88@gmail.com">nagillapraneeth88@gmail.com</a>
     </p>
   </div>
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
