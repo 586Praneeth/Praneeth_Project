@@ -17,10 +17,11 @@ function App() {useEffect(() => {
   return (
 <div className="min-h-screen bg-gray-50 text-gray-900 font-sans px-4 pt-6 pb-12 relative w-full">
       {/* ✅ Top-right certification badges */}
-      <div className="absolute top-4 right-4 flex gap-4">
-        <img src="/aws.jpg" alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
-        <img src="/azure.jpg" alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
-        <img src="/mta.jpg" alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+      <div className="absolute top-4 right-4 flex gap-4" >
+  <img src={`${import.meta.env.BASE_URL}aws.jpg`} alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
+<img src={`${import.meta.env.BASE_URL}azure.jpg`} alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
+<img src={`${import.meta.env.BASE_URL}mta.jpg`} alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+
       </div>
 
       {/* ✅ Main Profile Content */}
@@ -261,7 +262,7 @@ function App() {useEffect(() => {
   </div>
    <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
   <p className="text-2xl mb-2">📄</p>
-  <a href="/A_aws.jpg" className="text-blue-600 font-medium" target="_blank" rel="noopener noreferrer">
+<a href={`${import.meta.env.BASE_URL}A_aws.jpg`} className="text-blue-600 font-medium" target="_blank" rel="noopener noreferrer">
     Certifications
   </a>
 </div>
