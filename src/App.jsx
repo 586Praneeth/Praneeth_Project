@@ -66,8 +66,8 @@ function App() {useEffect(() => {
       
 
 <div className="flex gap-4 mb-10">
-  <a href="/resume.pdf" target="_blank" className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">View Resume</a>
-  <a href="/resume.pdf" download className="border border-gray-500 px-4 py-2 rounded hover:bg-gray-100">Download Resume</a>
+  <a href="resume.pdf" target="_blank" className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">View Resume</a>
+  <a href="resume.pdf" download className="border border-gray-500 px-4 py-2 rounded hover:bg-gray-100">Download Resume</a>
 </div>
 
      
