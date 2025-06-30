@@ -248,7 +248,7 @@ function App() {useEffect(() => {
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
     <p className="text-2xl mb-2">📧</p>
     <p className="text-blue-600 font-medium">
-      <a href="nagillapraneeth88@gmail.com">nagillapraneeth88@gmail.com</a>
+      <a href="mailto:nagillapraneeth88@gmail.com">nagillapraneeth88@gmail.com</a>
     </p>
   </div>
   <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
