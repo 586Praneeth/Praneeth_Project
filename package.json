@@ -2,15 +2,14 @@
   "name": "praneeth-portfolio",
   "version": "1.0.0",
   "description": "Portfolio website for Praneeth Nagilla",
-"homepage": "https://Praneeth340.github.io/Praneeth_Nagilla_Portfolio",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "vite build",
-  "deploy": "gh-pages -d dist"
-},
-
+  "homepage": "https://Praneeth340.github.io/Praneeth_Nagilla_Portfolio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "aos": "^2.3.4",
     "react": "^18.2.0",

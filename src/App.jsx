@@ -22,9 +22,10 @@ function App() {useEffect(() => {
       {/* ✅ Main Profile Content */}
       <div className="mt-12">
         <div className="flex flex-wrap justify-center items-center gap-3 md:gap-6 mt-4 mb-6">
-  <img src="/aws.jpg" alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
-  <img src="/azure.jpg" alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
-  <img src="/mta.jpg" alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+  <img src={`${import.meta.env.BASE_URL}aws.jpg`} alt="AWS Certified Developer" className="w-28 h-28 md:w-32 md:h-32" />
+<img src={`${import.meta.env.BASE_URL}azure.jpg`} alt="Azure Developer Associate" className="w-28 h-28 md:w-32 md:h-32" />
+<img src={`${import.meta.env.BASE_URL}mta.jpg`} alt="Microsoft MTA" className="w-28 h-28 md:w-32 md:h-32" />
+
 </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-2 animate-fade-in-up">{profile.name}</h1>
