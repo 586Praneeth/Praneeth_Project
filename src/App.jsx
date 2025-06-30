@@ -249,7 +249,7 @@ function App() {useEffect(() => {
     <p className="text-2xl mb-2">📧</p>
  <p className="text-blue-600 font-medium">
   
-  |
+  
   <a
     href="https://mail.google.com/mail/?view=cm&fs=1&to=nagillapraneeth88@gmail.com"
     target="_blank"
