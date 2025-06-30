@@ -256,7 +256,7 @@ function App() {useEffect(() => {
     rel="noopener noreferrer"
     className="hover:underline ml-2 inline-block"
   >
-    📩 nagillapraneeth88@gmail.com
+   📩 nagillapraneeth88@gmail.com
   </a>
 </p>
 
