@@ -34,7 +34,7 @@ function App() {useEffect(() => {
         <h2 className="text-lg text-gray-500 mb-2 italic">Masters in Computer Science from University of Central Missouri</h2>
         <h2 className="text-xl text-gray-600 mb-4">{profile.location}</h2>
 
-        <p className="text-md md:text-lg leading-relaxed mb-6 whitespace-pre-line">I'm a Full Stack Developer with a strong foundation in building scalable, secure, and cloud-native applications using Java, Spring Boot, React, and AWS. I specialize in designing microservices, automating deployments with CI/CD pipelines, and crafting intelligent solutions across domains like healthcare, finance, and embedded systems. With a passion for problem-solving through data structures and clean system architecture, I also believe that leveraging AI can significantly enhance development efficiency and user experience. I approach every project not just as a developer, but with the mindset of a product owner — focused on delivering value, thinking ahead, and building systems that lead the race in today's tech-driven world.</p>
+        <p className="text-md md:text-lg leading-relaxed mb-6 whitespace-pre-line">I'm a Full Stack Developer with expertise in secure, scalable enterprise applications using Java 17, Spring Boot, React, and AWS. I specialize in microservices architecture, integrating AI/ML models into backend workflows, and building secure APIs using OAuth2, RBAC, and mTLS. My experience spans regulated domains like healthcare and finance, where I’ve led development of real-time Kafka pipelines, DevSecOps CI/CD automation with GitHub Actions, and production-grade deployments across AWS and Azure. I focus on system resilience, developer experience, and future-proofing backend architecture through AI-enhanced observability and cryptographic safeguards.</p>
 
         <div className="flex flex-col md:flex-row md:gap-16 mb-6">
   <div>
@@ -71,16 +71,16 @@ function App() {useEffect(() => {
 </div>
 
      
-<div className="bg-gray-500 border border-gray-600 rounded-xl p-6 mt-10">
+<div className="bg-gray-500 border border-gray-500 rounded-xl p-6 mt-10">
   <h2 className="text-3xl font-bold mb-4">Experience</h2>
 
   <div className="mb-6">
     <h3 className="text-2xl font-semibold">🏢 Centene Corporation – Java Full Stack Developer</h3>
     <p className="text-md text-gray-700">Jan 2024 – Present | St. Louis, USA</p>
     <ul className="list-disc list-inside mt-2 text-lg">
-      <li>Spearheading backend development using Spring Boot microservices on AWS, ensuring HIPAA and FHIR compliance.</li>
-      <li>Built secure APIs with OAuth2/JWT, CI/CD automation via Jenkins and GitHub Actions, deployed to Kubernetes.</li>
-      <li>Integrated Kafka, Prometheus, Dynatrace, and ELK; designed React dashboards and optimized PostgreSQL pipelines.</li>
+      <li>Developed HIPAA-compliant Spring Boot microservices with OAuth2, JWT, and mTLS for secure claims and EHR integrations.</li>
+      <li>Integrated Kafka and Redis for real-time eligibility validation, and exposed REST APIs for ML model inference in risk workflows.</li>
+      <li>Automated CI/CD using GitHub Actions and Jenkins with container signing, SonarQube checks, and secure EKS deployments via Helm/Terraform.</li>
     </ul>
   </div>
 
@@ -88,9 +88,9 @@ function App() {useEffect(() => {
     <h3 className="text-2xl font-semibold">🏢 Wells Fargo – Java Developer</h3>
     <p className="text-md text-gray-700">Aug 2021 – Feb 2023 | Pune, India</p>
     <ul className="list-disc list-inside mt-2 text-lg">
-      <li>Modernized banking systems using Java, Spring Boot, and Kafka with SOX-compliant workflows.</li>
-      <li>Developed GraphQL/REST APIs, automated journal entries, and real-time reconciliation for financial services.</li>
-      <li>Built Angular dashboards, optimized SQL queries, and managed audit-ready reports via Athena and AWS S3.</li>
+      <li>Built secure APIs and batch jobs for payroll and sub-ledger reconciliation using Spring Boot, Kafka, and PostgreSQL.</li>
+      <li>Created ML-ready financial datasets and optimized SQL for anomaly detection models.</li>
+      <li>Automated pipelines with Jenkins, SonarQube, and Nexus; led backend integration for audit-ready reporting modules.</li>
     </ul>
   </div>
 
@@ -98,9 +98,9 @@ function App() {useEffect(() => {
     <h3 className="text-2xl font-semibold">🏢 T-Mobile – Java Developer</h3>
     <p className="text-md text-gray-700">Aug 2019 – July 2021 | Hyderabad, India</p>
     <ul className="list-disc list-inside mt-2 text-lg">
-      <li>Developed microservices for NEFT/RTGS/IMPS using Java 11, Spring Boot, Kafka, and Kubernetes.</li>
-      <li>Implemented PCI-DSS-compliant transaction modules with dual-ledger accounting and SLA tracking.</li>
-      <li>Designed Angular dashboards and real-time alert systems for payments and SLA violations.</li>
+      <li>Developed Angular dashboards and integrated secure REST APIs for NEFT/RTGS/IMPS transaction modules.</li>
+      <li>Implemented JWT-based authentication, responsive UI components, and role-based dashboards.</li>
+      <li>Shadowed backend team and contributed to debugging Node.js APIs and improving real-time frontend/backend sync.</li>
     </ul>
   </div>
 </div>
@@ -134,69 +134,95 @@ function App() {useEffect(() => {
   <h2 className="text-2xl font-bold p-4">Technical Skills</h2>
   <table className="w-full table-auto">
             <tbody>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold w-1/3 border-r border-gray-700">Languages</td>
-                <td className="p-3 border-l border-gray-700">Java 17, JavaScript (ES6+), TypeScript, Python, SQL, PL/SQL, Shell Script</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Databases</td>
-                <td className="p-3 border-l border-gray-700">PostgreSQL, Aurora PostgreSQL, MySQL, MongoDB, Redshift, DynamoDB</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">J2EE Technologies</td>
-                <td className="p-3 border-l border-gray-700">RESTful Web Services, JPA, Microservices, Kafka, Spring Data JPA</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">UI Technologies</td>
-                <td className="p-3 border-l border-gray-700">HTML5, CSS3, JavaScript, TypeScript, Angular, React.js, Bootstrap, Redux, JSON, AJAX</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Frameworks</td>
-                <td className="p-3 border-l border-gray-700">Spring Boot, Spring MVC, Spring Cloud, Spring Security, Hibernate, Spring ORM</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Cloud Technologies</td>
-                <td className="p-3 border-l border-gray-700">AWS (EC2, S3, RDS, Lambda, Redshift, Route53, CloudWatch, SageMaker, Kinesis, CloudTrail, Data Pipeline)</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Messaging Services</td>
-                <td className="p-3 border-l border-gray-700">Kafka, RabbitMQ, AWS SQS, AWS SNS</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">DevOps & CI/CD</td>
-                <td className="p-3 border-l border-gray-700">Jenkins, GitHub Actions, Docker, Helm, Kubernetes, OpenShift</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Monitoring & Logging</td>
-                <td className="p-3 border-l border-gray-700">Dynatrace, Grafana, Prometheus, ELK Stack, AWS CloudTrail, Splunk</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Web Services</td>
-                <td className="p-3 border-l border-gray-700">REST, GraphQL, SOAP</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Reporting & Visualization</td>
-                <td className="p-3 border-l border-gray-700">Power BI, Tableau, Splunk, ELK Stack</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Testing Tools</td>
-                <td className="p-3 border-l border-gray-700">JUnit, TestNG, Postman, Cypress, Mockito, Selenium, REST Assured</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Version Control</td>
-                <td className="p-3 border-l border-gray-700">Git, GitHub, GitLab, Bitbucket, JIRA, Confluence</td>
-              </tr>
-              <tr className="border-b border-gray-700">
-                <td className="p-3 font-bold border-r border-gray-700">Security & Access</td>
-                <td className="p-3 border-l border-gray-700">OAuth2.0, JWT, IAM Roles & Policies, AWS KMS, RBAC, TLS, Encryption Techniques</td>
-              </tr>
-              <tr>
-                <td className="p-3 font-bold border-r border-gray-700">Web/Application Servers</td>
-                <td className="p-3 border-l border-gray-700">Tomcat, Nginx</td>
-              </tr>
+             <tr className="border-b border-gray-700">
+  <td className="p-3 font-bold w-1/3 border-r border-gray-700">Languages</td>
+  <td className="p-3 border-l border-gray-700">Java 17, JavaScript (ES6+), TypeScript, Python, SQL, PL/SQL, Shell Script</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Databases</td>
+  <td className="p-3 border-l border-gray-700">PostgreSQL, Aurora PostgreSQL, MySQL, MongoDB, Redshift, DynamoDB, Snowflake</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">J2EE Technologies</td>
+  <td className="p-3 border-l border-gray-700">RESTful Web Services, JPA, Microservices, Kafka, Spring Data JPA, Spring Batch</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">UI Technologies</td>
+  <td className="p-3 border-l border-gray-700">HTML5, CSS3, JavaScript, TypeScript, Angular, React.js, Bootstrap, Redux, JSON, AJAX</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Frameworks</td>
+  <td className="p-3 border-l border-gray-700">Spring Boot, Spring MVC, Spring Cloud, Spring Security, Hibernate, Flask, Express.js</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Cloud Technologies</td>
+  <td className="p-3 border-l border-gray-700">AWS (EC2, S3, RDS, Lambda, EKS, KMS, IAM, CloudWatch, SageMaker, Kinesis), Azure (AKS, App Services, Azure ML), GCP (basic)</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Messaging Services</td>
+  <td className="p-3 border-l border-gray-700">Kafka, RabbitMQ, AWS SQS, AWS SNS</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">DevOps & CI/CD</td>
+  <td className="p-3 border-l border-gray-700">Jenkins, GitHub Actions, GitLab CI, ArgoCD, Docker, Helm, Kubernetes, OpenShift</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Monitoring & Logging</td>
+  <td className="p-3 border-l border-gray-700">Dynatrace, Grafana, Prometheus, ELK Stack, Splunk, AWS CloudWatch, CloudTrail</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Web Services</td>
+  <td className="p-3 border-l border-gray-700">REST, GraphQL, SOAP</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Reporting & Visualization</td>
+  <td className="p-3 border-l border-gray-700">Power BI, Tableau, Splunk, ELK Stack</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Testing Tools</td>
+  <td className="p-3 border-l border-gray-700">JUnit, TestNG, Postman, Cypress, Mockito, Selenium, REST Assured, Cucumber</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Version Control</td>
+  <td className="p-3 border-l border-gray-700">Git, GitHub, GitLab, Bitbucket, JIRA, Confluence</td>
+</tr>
+<tr className="border-b border-gray-700">
+  <td className="p-3 font-bold border-r border-gray-700">Security & Access</td>
+  <td className="p-3 border-l border-gray-700">OAuth2.0, JWT, IAM Roles & Policies, AWS KMS, RBAC, TLS/mTLS, Vault, Encryption Techniques</td>
+</tr>
+<tr>
+  <td className="p-3 font-bold border-r border-gray-700">Web/Application Servers</td>
+  <td className="p-3 border-l border-gray-700">Tomcat, Nginx, Apache</td>
+</tr>
+
             </tbody>
           </table>
-        </div>
+        </div><div className="bg-white border border-gray-300 rounded-xl p-6 mt-12 shadow-md">
+  <h2 className="text-3xl font-bold mb-4 text-gray-900 flex items-center">
+    📘 <span className="ml-2">Publications</span>
+  </h2>
+
+  <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
+    <h3 className="text-xl font-semibold text-blue-600 mb-2">
+      Development and Performance Evaluation of NavIC-Based Reefer Monitoring System
+    </h3>
+    <p className="text-gray-800 text-md mb-1">
+      <strong>Published In:</strong> <em>Advances in Signal Processing and Communication Engineering</em>, Springer, July 2024
+    </p>
+    <p className="text-gray-700 text-md mb-3">
+      Proposed a NavIC-based monitoring system to ensure real-time tracking of environmental conditions in refrigerated containers (reefers) for transporting temperature-sensitive goods. The system leverages NavIC for precise geolocation, enhancing logistics efficiency and reducing spoilage losses.
+    </p>
+    <a
+      href="https://link.springer.com/chapter/10.1007/978-981-97-0562-7_15"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 font-medium hover:underline"
+    >
+      📎 View Publication on Springer
+    </a>
+  </div>
+</div>
+
                      {/* ✅ Projects Section */}
         <h3 className="text-3xl semibold mb-6 mt-16 text-center text-gray-900">Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center px-6 md:px-16 lg:px-24">
