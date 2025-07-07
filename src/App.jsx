@@ -301,7 +301,7 @@ function App() {useEffect(() => {
   </div>
    <div className="bg-gray-100 shadow-md rounded-xl p-6 text-center hover:shadow-xl transition">
   <p className="text-2xl mb-2">📄</p>
-<a href={`${import.meta.env.BASE_URL}A_aws.jpg`} className="text-blue-600 font-medium" target="_blank" rel="noopener noreferrer">
+<a href={`${import.meta.env.BASE_URL}cert.jpg`} className="text-blue-600 font-medium" target="_blank" rel="noopener noreferrer">
     Certifications
   </a>
 </div>
