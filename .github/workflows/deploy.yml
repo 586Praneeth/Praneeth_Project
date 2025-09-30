@@ -2,7 +2,7 @@ name: Deploy Vite Portfolio
 
 on:
   push:
-    branches: ["main"]   # 👈 workflow runs on push to main branch
+    branches: ["master"]   # 👈 workflow runs on push to main branch
 
 permissions:
   contents: read
