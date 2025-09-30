@@ -85,8 +85,8 @@ function App() {useEffect(() => {
   </div>
 
   <div className="mb-6">
-    <h3 className="text-2xl font-semibold">🏢 Wells Fargo – Java Developer</h3>
-    <p className="text-md text-gray-700">Aug 2021 – Feb 2023 | Pune, India</p>
+    <h3 className="text-2xl font-semibold">🏢 Wells Fargo  – Java Developer</h3>
+    <p className="text-md text-gray-700">Aug 2021 – July 2023 | Pune, India</p>
     <ul className="list-disc list-inside mt-2 text-lg">
       <li>Built secure APIs and batch jobs for payroll and sub-ledger reconciliation using Spring Boot, Kafka, and PostgreSQL.</li>
       <li>Created ML-ready financial datasets and optimized SQL for anomaly detection models.</li>
