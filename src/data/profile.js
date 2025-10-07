@@ -1,5 +1,5 @@
 const profile = {
-  name: "PRANEETH REgbrkgrgnrk,gnDDY NAGILLA",
+  name: "PRANEETH REDDY NAGILLA",
   phone: "+1 (913) 282-1310",
   location: "Irving, Texas",
   email: "nagillapraneeth88@gmail.com",
